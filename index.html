@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form action="/action" method="get">
+            <label for="fname">First Name:*</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            
+            <label for="lname">Last Name:*</label>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <label for="email">Email Address:*</label>
+            <input type="text" id="email" name="email"><br><br>
+
+            <label for="password">Password:*</label>
+            <input type="password" id="password" name="password"><br><br>
+
+            <label for="cpassword">Confirm Password:*</label>
+            <input type="password" id="cpassword" name="cpassword"><br><br>
+
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+
+            <label>Gender Identity:</label>
+            <div>
+                <input type="radio" id="male" name="male" value="male">
+                <label for="male">Male</label>
+    
+                <input type="radio" id="female" name="female" value="female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="nb" name="nb" value="nb">
+                <label for="nb">Non-binary</label>
+    
+                <input type="radio" id="noanswer" name="noanswer" value="noanswer">
+                <label for="noanswer">I prefer not to answer</label>
+            </div><br>
+
+            <label for="descripe">A short description about myself:</label><br>
+            <textarea name="descripe" id="descripe" cols="30" rows="5"></textarea><br><br>
+
+            <label for="language">Favorite Language:</label>
+            <select id="language" name="language">
+                <option>Javascript</option>
+                <option>Python</option>
+                <option>C++</option>
+            </select><br><br>
+
+            <input type="checkbox" id="choice" name="choice">
+            <label for="choice">Yes, I would like to recieve periodic email updates</label><br><br>
+
+            <input type="submit" id="account" name="account" value="Create Account"><br>
+
+            <p>* Indicates a required field</p>
+        </form>
+    </body>
+</html>
